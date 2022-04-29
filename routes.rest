@@ -1,0 +1,26 @@
+###
+POST  http://localhost:5000/login/login-info
+Content-Type: application/json
+
+{
+    "email" : "abc@email.com",
+    "password" : "asdasda"
+}
+###
+GET http://localhost:5000/agm
+
+###
+POST http://localhost:5000/signup/add-new 
+Content-Type: application/json
+
+{
+    "name" : "amir",
+    "email" : "amir@gmail.com",
+    "mobile_number" : "98382438947",
+    "password" : "asdkjsdknjd",
+    "class_id" : 12,
+    "institute" : "asdjkasnd",
+    "district_id" : 11,
+    "present_address" : "sadjnkasdnsd",
+}
+
